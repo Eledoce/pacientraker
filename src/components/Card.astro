@@ -1,0 +1,13 @@
+---
+interface Props {
+  title: string
+  parrafo: string
+}
+const { title } = Astro.props
+const { parrafo } = Astro.props
+---
+
+<div>
+    <h2 class="font-bold text-xl">{title}</h2>
+    <p class="justify-around text-sm">{parrafo}</p>
+</div>
