@@ -4,7 +4,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://eledoce.github.io/',
-  base: '/pacientraker/',
+  // site: 'https://eledoce.github.io/',
+  // base: '/pacientraker/',
   integrations: [tailwind()]
 });
