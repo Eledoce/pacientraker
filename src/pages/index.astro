@@ -4,18 +4,18 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="PacienTracker.">
 	<main class="h-screen w-full">
-		<header class="w-full h-1/6 flex bg-blue-600 text-black justify-between items-center px-12">
+		<header class="w-full h-1/6 flex text-black justify-between items-center px-12">
 			<p class="text-2xl font-bold"><a href="#">PacienTracker</a></p>
 			<button class="px-6 py-2 bg-slate-700 text-white">Adquirir servicio</button>
 		</header>
-		<div class="w-full h-5/6 bg-blue-600 flex">
-			<div class="w-1/2 h-full flex justify-center items-center">
-				<img src="#" alt="portada">
+		<div class="w-full h-5/6 bg- flex">
+			<div class="w-1/2 h-full flex justify-center items-end">
+				<img src="../../public/assets/portada.webp" alt="portada">
 			</div>
-			<div class="w-1/2 h-full flex flex-col text-white">
-				<h1 class="text-3xl">Mejore el almacenamiento de los datos de sus clientes.</h1>
-				<p class="">Software de vitacora para una correcta gestion de los datos.</p>
-				<button>Ir ahora mismo </button>
+			<div class="w-1/2 h-full flex flex-col justify-center items-start gap-6 text-black">
+				<h1 class="text-3xl font-bold w-4/5">Mejore el almacenamiento de los datos de sus clientes.</h1>
+				<p class="text-xl w-4/5">Software de vitacora para una correcta gestion de los datos.</p>
+				<button class="px-6 py-2 bg-slate-700 text-white mb-20">Ir ahora mismo </button>
 			</div>
 		</div>
 	</main>
