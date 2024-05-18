@@ -3,10 +3,10 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Button from '../components/Button.astro';
 
-import { LuAlarmClock } from "react-icons/lu";
-import { IoIosSettings } from "react-icons/io";
-import { FaRocket } from "react-icons/fa";
-import { FaUsers } from "react-icons/fa";
+import { FaFileWaveform } from "react-icons/fa6";
+import { SiGooglemaps } from "react-icons/si";
+import { TbReportAnalytics } from "react-icons/tb";
+import { FaArrowsDownToPeople } from "react-icons/fa6";
 ---
 
 <Layout title="PacienTracker.">
@@ -39,28 +39,28 @@ import { FaUsers } from "react-icons/fa";
 			</p>
 			<div class="w-4/6 h-2/4 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 mt-7 ">
 				<div>
-					<LuAlarmClock className='text-5xl' />
+					<FaFileWaveform className='text-5xl max-md:text-3xl max-md:text-center' />
 					<Card 
 					title='Ahorre tiempo y reduzca costos' 
 					parrafo='Configuración rápida y sencilla que le permite crecer de forma eficaz con el tiempo.'
 					/>
 				</div>
 				<div>
-					<IoIosSettings className='text-5xl' />
+					<SiGooglemaps className='text-5xl max-md:text-3xl' />
 					<Card 
 					title='Mejore la productividad' 
 					parrafo='Utilice flujos de trabajo, automatización e inteligencia artificial para enviar sus tickets al agente adecuado.' 
 					/>
 				</div>
 				<div>
-					<FaRocket className='text-5xl' />
+					<TbReportAnalytics className='text-5xl max-md:text-3xl' />
 					<Card 
 					title='Aumente la satisfacción del cliente' 
 					parrafo='Ayude a los clientes con online tickets utilizando más inteligencia virtual y menos trabajo manual.' 
 					/>
 				</div>
 				<div>
-					<FaUsers className='text-5xl' />
+					<FaArrowsDownToPeople className='text-5xl max-md:text-3xl' />
 					<Card 
 					title='Brinde soporte en todos los canales' 
 					parrafo='Resuelva los tickets de soporte al cliente a través de la web, correo electrónico, teléfono, SMS y redes sociales – todo en un solo lugar.' 
