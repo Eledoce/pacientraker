@@ -40,28 +40,28 @@ import { FaArrowsDownToPeople } from "react-icons/fa6";
 				Software de soporte especializado para el sector medico privado de excelente calidad
 			</p>
 			<div class="w-4/6 h-2/4 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 mt-7 ">
-				<div>
+				<div class="flex flex-col items-center">
 					<FaFileWaveform className='text-5xl max-md:text-3xl max-md:text-center' />
 					<Card 
 					title='Gestión de expedientes clínicos' 
 					parrafo='Organice de manera eficiente todos los historiales médicos de los pacientes en un solo lugar.'
 					/>
 				</div>
-				<div>
+				<div class="flex flex-col items-center">
 					<SiGooglemaps className='text-5xl max-md:text-3xl' />
 					<Card 
 					title='Carga de datos desde cualquier lugar' 
 					parrafo='Permite la entrada de información médica desde cualquier dispositivo con acceso a Internet.' 
 					/>
 				</div>
-				<div>
+				<div class="flex flex-col items-center">
 					<TbReportAnalytics className='text-5xl max-md:text-3xl' />
 					<Card 
 					title='Generación de reportes de seguimiento' 
 					parrafo='Cree informes detallados para el monitoreo continuo del estado de salud de los pacientes.' 
 					/>
 				</div>
-				<div>
+				<div class="flex flex-col items-center">
 					<FaArrowsDownToPeople className='text-5xl max-md:text-3xl' />
 					<Card 
 					title='Adaptabilidad de servicio' 
@@ -69,9 +69,11 @@ import { FaArrowsDownToPeople } from "react-icons/fa6";
 					/>
 				</div>
 			</div>
-			<button class="px-6 py-3 bg-slate-700 text-white block mx-auto rounded-full hover:scale-105 hover:transition-all hover:translate-x-1 hover:bg-black hover:shadow-lg hover:shadow-slate-500 mt-8 max-sm:py-2 max-sm:px-3 max-sm:text-xs max-md:mb-5">
-				Empieza ya!
-			</button>
+			<div class="w-full h-1/4 md:py-48">
+				<button class="px-6 py-3 bg-slate-700 text-white block mx-auto rounded-full hover:scale-105 hover:transition-all hover:translate-x-1 hover:bg-black hover:shadow-lg hover:shadow-slate-500 mt-8 max-sm:py-2 max-sm:px-3 max-sm:text-xs max-md:mb-5">
+					Empieza ya!
+				</button>
+			</div>
 		</section>
 		<footer class="bg-black text-white h-12 flex justify-center items-center">
 			copy@Derecho
