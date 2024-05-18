@@ -7,10 +7,16 @@ import { FaFileWaveform } from "react-icons/fa6";
 import { SiGooglemaps } from "react-icons/si";
 import { TbReportAnalytics } from "react-icons/tb";
 import { FaArrowsDownToPeople } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 ---
 
 <Layout title="PacienTracker.">
-	<main class="w-full">
+	<main class="w-full relative">
+		<div class="fixed bottom-1 right-2">
+			<a href="https://wa.me/527353220603?text=Hola,%20muy%20buen%20día%20me%20podría%20dar%20informes%20por%20favor" target="_blank">
+				<FaWhatsapp className='w-16 h-auto text-green-700 hover:translate-x-1 hover:transition-all hover:scale-125 hover:text-green-500 max-sm:text-transparent'/>
+			</a>
+		</div>
 		<section class="w-full h-screen">
 			<header class="w-full h-1/6 flex max-sm:flex-col max-sm:py-4 max-sm:gap-0 text-black justify-between items-center px-12">
 				<p class="text-3xl font-bold"><a href="#">PacienTracker</a></p>
@@ -25,7 +31,7 @@ import { FaArrowsDownToPeople } from "react-icons/fa6";
 					<h1 class="text-3xl font-bold w-4/5 max-sm:text-xl max-sm:text-center">Mejore el control de sus clientes con nuestros servicios.</h1>
 					<p class="text-xl w-4/5 max-sm:text-base max-sm:text-center">¡Aprovecha nuestros dos servicios diseñados para tu beneficio! No esperes más y contrátalos hoy mismo.</p>
 					<div class="flex gap-14 max-sm:flex-col">
-						<button class ="bg-blue-500 px-6 py-3 bg-slate-700 font-bold text-white rounded-full hover:scale-105 hover:transition-all hover:translate-x-1 hover:bg-blue-700 hover:shadow-lg hover:shadow-slate-500 max-sm:py-2 max-sm:px-3 max-sm:text-xs">
+						<button class ="bg-blue-500 px-6 py-3 font-bold text-white rounded-full hover:scale-105 hover:transition-all hover:translate-x-1 hover:bg-blue-700 hover:shadow-lg hover:shadow-slate-500 max-sm:py-2 max-sm:px-3 max-sm:text-xs">
 						Servicio BASICO 
 						</button>
 						<button class="px-6 py-3 bg-blue-900 font-bold text-white rounded-full hover:scale-105 hover:transition-all hover:translate-x-1 hover:bg-blue-950 hover:shadow-lg hover:shadow-slate-500 max-sm:py-2 max-sm:px-3 max-sm:text-xs">
@@ -71,11 +77,11 @@ import { FaArrowsDownToPeople } from "react-icons/fa6";
 			</div>
 			<div class="w-full h-1/4 md:py-10">
 				<button class="px-6 py-3 bg-slate-700 text-white block mx-auto rounded-full hover:scale-105 hover:transition-all hover:translate-x-1 hover:bg-black hover:shadow-lg hover:shadow-slate-500 mt-8 max-sm:py-2 max-sm:px-3 max-sm:text-xs max-md:mb-5">
-					Empieza ya!
+					¡Empieza ya!
 				</button>
 			</div>
 		</section>
-		<footer class="bg-black text-white h-16 flex justify-center items-center">
+		<footer class="bg-black text-white h-16 flex justify-center items-center static z-50">
 			&#169; 2024 Derechos reservados
 		</footer>
 	</main>
